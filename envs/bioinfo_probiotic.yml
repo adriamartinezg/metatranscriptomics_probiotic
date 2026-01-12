@@ -1,0 +1,35 @@
+name: bioinfo_probiotic
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.9
+  - snakemake=7.32.4
+  - pandas
+  - ncbi-datasets-cli
+  - unzip
+  - wget
+
+  - fastqc
+  - multiqc
+  - trimmomatic
+  - bowtie2
+  - samtools
+  - kraken2
+  - bracken
+  - subread # Contiene featureCounts
+
+  - r-base=4.2
+  - r-tidyverse
+  - r-dt
+  - r-plotly
+  - r-ggrepel
+  - r-htmltools
+  
+  - bioconductor-summarizedexperiment
+  - bioconductor-edger
+  - bioconductor-biobase
+  - bioconductor-rtracklayer
+
+  - r-devtools
