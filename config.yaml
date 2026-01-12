@@ -1,0 +1,22 @@
+threads: 10
+
+# Directorios de datos
+raw_dir: "raw"
+trim_dir: "trim"
+clean_dir: "clean"
+qc_dir: "qc"
+
+# Control de calidad
+qc_report_dir: "control_calidad/reports"
+human_index: "/home/adria/genomas/hg38/hg38_index"
+
+# Kraken2 / taxonomía
+kraken_db: "/home/adria/Insilico/kraken2_db/minikraken2_v2_8GB_201904_UPDATE"
+tax_report_dir: "taxonomia/reports"
+
+# Alineamiento y conteos
+metagenome_index: "/home/adria/Insilico/trabajo/genomes/gut_db_idx"
+gtf_file: "/home/adria/Insilico/trabajo/genomes/gut_db_clean.gff"
+bam_dir: "align/bam"
+counts_dir: "align/counts"
+
